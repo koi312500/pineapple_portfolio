@@ -195,4 +195,18 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = materialDarkTheme;
+export const koiTheme = {
+  body: "#183264",
+  text: "#EDF9FE",
+  expTxtColor: "#fff6ed",
+  highlight: "#591e05",
+  dark: "#00072D",
+  secondaryText: "#ffffff",
+  imageHighlight: "#f19457",
+  compImgHighlight: "#191919",
+  jacketColor: "#f5db8d",
+  headerColor: "#f19457",
+  splashBg: "#001C55",
+};
+
+export const chosenTheme = koiTheme;
