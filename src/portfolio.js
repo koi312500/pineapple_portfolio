@@ -50,27 +50,37 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Science Club of DJSHS",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ 대전과학고 최고의 정보 동아리",
+        "⚡ 컴퓨터를 통해 여러분이 원하는 모든 것을 이루세요",
+        "⚡ 40기 최고의 정보 변태들에게 정보과학을 배우세요",
+      ],
+      softwareSkills: [],
+    },
+    {
+      title: "Improving Development Skill",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "⚡ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "C/C++",
+          fontAwesomeClassname: "logos-c",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Qt",
+          fontAwesomeClassname: "simple-icons:qt",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
+            color: "#10B010",
           },
         },
         {
@@ -82,102 +92,15 @@ const skills = {
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos-python",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Becoming Developer in Major Company",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -187,10 +110,11 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Google",
+          fontAwesomeClassname: "simple-icons:google",
           style: {
             color: "#4285F4",
+            style: "bold",
           },
         },
         {
@@ -201,43 +125,43 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Apple",
+          fontAwesomeClassname: "simple-icons:apple",
           style: {
             color: "#0089D6",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Tesla",
+          fontAwesomeClassname: "simple-icons:tesla",
           style: {
             color: "#FFCA28",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Microsoft",
+          fontAwesomeClassname: "simple-icons:microsoft",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Meta",
+          fontAwesomeClassname: "simple-icons:facebook",
           style: {
             color: "#47A248",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Nvidia",
+          fontAwesomeClassname: "simple-icons:nvidia",
           style: {
             color: "#1488C6",
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "IBM",
+          fontAwesomeClassname: "simple-icons:ibm",
           style: {
             color: "#326CE5",
           },
@@ -245,7 +169,7 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Making Awesome Program",
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
@@ -254,15 +178,15 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Chrome",
+          fontAwesomeClassname: "logos-chrome",
           style: {
             color: "#FF2BC2",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Discord",
+          fontAwesomeClassname: "simple-icons:discord",
           style: {
             color: "#F24E1E",
           },
@@ -275,8 +199,8 @@ const skills = {
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "League Of Legends",
+          fontAwesomeClassname: "simple-icons:leagueoflegends",
           style: {
             color: "#000000",
           },
