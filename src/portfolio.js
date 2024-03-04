@@ -22,7 +22,7 @@ const greeting = {
   logo_name: "Pineapple",
   // nickname: "대전과학고 동아리",
   subTitle: "대전과학고 동아리 파인애플의 포트폴리오",
-  club_link: "신청 링크 넣어주세요.",
+  club_link: "https://forms.gle/RQUQBpwmHii4AVSt6",
   //resumeLink:
   //   "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
   //portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
