@@ -8,7 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Team Pineapple's portfolio",
-  description: "대전과학고 동아리 파인애플의 포트폴리오를 보여드립니다.",
+  description: "대전과고 정보과학 동아리 파인애플 포트폴리오",
   og: {
     title: "Team Pineapple's portfolio",
     type: "website",
@@ -18,10 +18,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Team Pineapple's portfolio",
+  title: "Team Pineapple's PORTFOLIO",
   logo_name: "Pineapple",
   // nickname: "대전과학고 동아리",
-  subTitle: "대전과학고 동아리 파인애플의 포트폴리오",
+  subTitle: "안녕하세요, 정보과학 동아리 파인애플입니다.",
   club_link: "https://forms.gle/RQUQBpwmHii4AVSt6",
   //resumeLink:
   //   "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
@@ -50,22 +50,22 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Informatics Club of DSHS",
-      fileName: "DataScienceImg",
+      title: "Create MARVELOUS Programs",
+      fileName: "DesignImg",
       skills: [
-        "⚡ 대전과학고 최고의 정보 동아리",
-        "⚡ 컴퓨터를 통해 여러분이 원하는 모든 것을 이루세요",
-        "⚡ 40기 최고의 정보 천재들에게 정보과학을 배우세요",
+        "⚡ 내가 손수 구현한 멋진 기능들과",
+        "⚡ 한 자 한 자 정성스레 작성한 인터페이스가",
+        "⚡ 많은 사람들에게 편의를 제공하는 모습을 보고 싶은가요?",
       ],
       softwareSkills: [],
     },
     {
-      title: "Improving Development Skill",
+      title: "Improve Your SKILLS",
       fileName: "FullStackImg",
       skills: [
-        "⚡ C, Python 등 프로그래밍 언어를 배우세요",
-        "⚡ PyQt, PyTorch와 같은 확장 기능을 사용하세요",
-        "⚡ 더 세련되고 무지막지한 기능의 프로그램을 구현하세요",
+        "⚡ C와 Python, Java를 비롯한 여러 언어를 익히고",
+        "⚡ 추가적인 기능과 스킬을 배워서",
+        "⚡ 환상적으로 기능하는 세련된 코드를 작성해보고 싶지 않나요?",
       ],
       softwareSkills: [
         {
@@ -76,11 +76,10 @@ const skills = {
           },
         },
         {
-          skillName: "Qt",
-          fontAwesomeClassname: "simple-icons:qt",
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
           style: {
             backgroundColor: "transparent",
-            color: "#10B010",
           },
         },
         {
@@ -100,12 +99,12 @@ const skills = {
       ],
     },
     {
-      title: "Becoming Developer in Major Company",
+      title: "Become a Skillful DEVELOPER",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ 대기업의 개발자가 된 기분을 느끼세요",
-        "⚡ 더이상 혼자가 아닌, 동료들과 협력하여 대형 프로젝트의 한 자리를 맡으세요",
-        "⚡ 미래의 자신의 모습을 상상하며 참여하세요",
+        "⚡ 학교를 위해 프로그램을 작성하고",
+        "⚡ 동료들과 협력하여 근사한 프로젝트에 참여하며",
+        "⚡ 진짜 개발자가 된 기분을 느껴보는 건 어떤가요?",
       ],
       softwareSkills: [
         {
@@ -169,12 +168,12 @@ const skills = {
       ],
     },
     {
-      title: "Making Awesome Program",
-      fileName: "DesignImg",
+      title: "BE ONE OF US",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ 모두가 놀랄만한 기능을 구현하세요",
-        "⚡ 눈이 정화되는 멋진 인터페이스를 만들어 보세요",
-        "⚡ 자신만의 프로그램을 많은 사람들이 사용하는 것을 지켜보세요",
+        "⚡ 정보과학을 좋아하는 다른 친구, 선배들과 토론하고",
+        "⚡ 함께 다양한 프로젝트를 수행하는",
+        "⚡ 파인애플의 과육이 되어 주세요!",
       ],
       softwareSkills: [
         {
