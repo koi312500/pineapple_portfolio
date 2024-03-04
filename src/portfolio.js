@@ -63,9 +63,9 @@ const skills = {
       title: "Improving Development Skill",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ C, Python 등 프로그래밍 언어를 배우세요",
+        "⚡ PyQt, PyTorch와 같은 확장 기능을 사용하세요",
+        "⚡ 더 세련되고 무지막지한 기능의 프로그램을 구현하세요",
       ],
       softwareSkills: [
         {
@@ -103,18 +103,16 @@ const skills = {
       title: "Becoming Developer in Major Company",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ 대기업의 개발자가 된 기분을 느끼세요",
+        "⚡ 더이상 혼자가 아닌, 동료들과 협력하여 대형 프로젝트의 한 자리를 맡으세요",
+        "⚡ 미래의 자신의 모습을 상상하며 참여하세요",
       ],
       softwareSkills: [
         {
           skillName: "Google",
           fontAwesomeClassname: "simple-icons:google",
           style: {
-            color: "#4285F4",
-            style: "bold",
+            color: "#FF5050",
           },
         },
         {
@@ -128,42 +126,44 @@ const skills = {
           skillName: "Apple",
           fontAwesomeClassname: "simple-icons:apple",
           style: {
-            color: "#0089D6",
+            backgroundColor: "white",
+            color: "#000000",
           },
         },
         {
           skillName: "Tesla",
           fontAwesomeClassname: "simple-icons:tesla",
           style: {
-            color: "#FFCA28",
+            color: "#E31937",
           },
         },
         {
           skillName: "Microsoft",
           fontAwesomeClassname: "simple-icons:microsoft",
           style: {
-            color: "#336791",
+            color: "#0078D4",
           },
         },
         {
           skillName: "Meta",
           fontAwesomeClassname: "simple-icons:facebook",
           style: {
-            color: "#47A248",
+            color: "#316FF6",
+            backgroundColor: "white",
           },
         },
         {
           skillName: "Nvidia",
           fontAwesomeClassname: "simple-icons:nvidia",
           style: {
-            color: "#1488C6",
+            color: "#76B900",
           },
         },
         {
           skillName: "IBM",
           fontAwesomeClassname: "simple-icons:ibm",
           style: {
-            color: "#326CE5",
+            color: "#006699",
           },
         },
       ],
@@ -172,23 +172,20 @@ const skills = {
       title: "Making Awesome Program",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ 모두가 놀랄만한 기능을 구현하세요",
+        "⚡ 눈이 정화되는 멋진 인터페이스를 만들어 보세요",
+        "⚡ 자신만의 프로그램을 많은 사람들이 사용하는 것을 지켜보세요",
       ],
       softwareSkills: [
         {
           skillName: "Chrome",
           fontAwesomeClassname: "logos-chrome",
-          style: {
-            color: "#FF2BC2",
-          },
         },
         {
           skillName: "Discord",
           fontAwesomeClassname: "simple-icons:discord",
           style: {
-            color: "#F24E1E",
+            color: "#7289d9",
           },
         },
         {
@@ -201,9 +198,6 @@ const skills = {
         {
           skillName: "League Of Legends",
           fontAwesomeClassname: "simple-icons:leagueoflegends",
-          style: {
-            color: "#000000",
-          },
         },
       ],
     },
