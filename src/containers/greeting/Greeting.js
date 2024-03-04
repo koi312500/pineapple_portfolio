@@ -1,6 +1,5 @@
 import React from "react";
 import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
@@ -34,6 +33,7 @@ export default function Greeting(props) {
                   newTab={true}
                   href={greeting.club_link}
                   theme={theme}
+                  style={{}}
                   className="portfolio-repo-btn"
                 />
               </div>
