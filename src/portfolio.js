@@ -50,12 +50,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Science Club of DJSHS",
+      title: "Informatics Club of DSHS",
       fileName: "DataScienceImg",
       skills: [
         "⚡ 대전과학고 최고의 정보 동아리",
         "⚡ 컴퓨터를 통해 여러분이 원하는 모든 것을 이루세요",
-        "⚡ 40기 최고의 정보 변태들에게 정보과학을 배우세요",
+        "⚡ 40기 최고의 정보 천재들에게 정보과학을 배우세요",
       ],
       softwareSkills: [],
     },
