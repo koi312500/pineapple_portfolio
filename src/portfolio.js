@@ -8,7 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Team Pineapple's portfolio",
-  description: "대전과고 정보과학 동아리 파인애플 포트폴리오",
+  description: "대전과학고 동아리 파인애플의 포트폴리오를 보여드립니다.",
   og: {
     title: "Team Pineapple's portfolio",
     type: "website",
@@ -18,10 +18,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Team Pineapple's PORTFOLIO",
+  title: "Team Pineapple's portfolio",
   logo_name: "Pineapple",
   // nickname: "대전과학고 동아리",
-  subTitle: "안녕하세요, 정보과학 동아리 파인애플입니다.",
+  subTitle: "대전과학고 동아리 파인애플의 포트폴리오",
   club_link: "https://forms.gle/RQUQBpwmHii4AVSt6",
   //resumeLink:
   //   "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
@@ -40,10 +40,16 @@ const socialMediaLinks = [
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
-    name: "Gmail",
-    link: "mailto:koi312500@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    name: "Instagram",
+    link: "https://www.instagram.com/koi312525/",
+    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/ideal_iquid/",
+    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=gmail
   },
 ];
 

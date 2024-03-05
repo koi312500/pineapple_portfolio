@@ -20,9 +20,7 @@ function SeoHeader() {
       sameAs.push(media.link);
     });
 
-  let mail = socialMediaLinks
-    .find((media) => media.link.startsWith("mailto"))
-    .link.substring("mailto:".length);
+  let mail = "koi312500@gmail.com";
   let job = experience.sections
     ?.find((section) => section.work)
     ?.experiences?.at(0);
